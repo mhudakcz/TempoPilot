@@ -1,7 +1,19 @@
 {
   "schema": 1,
-  "latest": "0.5.0",
+  "latest": "0.5.1",
   "releases": [
+    {
+      "version": "0.5.1",
+      "date": "2026-10-06",
+      "notes": [
+        "Čitelnější týdenní výkaz: i čtvrthodinový blok ukazuje ticket a popis.",
+        "Týden zobrazuje jen hodiny, kdy se pracovalo; hlavičky dnů zůstávají při posouvání nahoře."
+      ],
+      "url": "https://github.com/mhudakcz/TempoPilot-app/releases/download/v0.5.1/TempoPilot.exe",
+      "sha256": "54599f96b5c566f584eea381d152ddfe6773ba10bc35e8f29dcb117ac64e7f4a",
+      "size": 178071064,
+      "minFromVersion": null
+    },
     {
       "version": "0.5.0",
       "date": "2026-10-06",
