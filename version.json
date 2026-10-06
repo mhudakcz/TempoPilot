@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "latest": "0.5.0",
+  "releases": [
+    {
+      "version": "0.5.0",
+      "date": "2026-10-06",
+      "notes": [
+        "Automatický návrh výkazu za předchozí den (od 4:00 dalšího dne), každý den jen jednou.",
+        "Rychlejší a levnější generování výkazu.",
+        "Výkaz bez překryvů, odpracovaný a nepokrytý čas u každého dne s doplněním mezer.",
+        "Automatické aktualizace se zálohou dat a možností vrátit předchozí verzi.",
+        "Verze aplikace v menu u ikony."
+      ],
+      "url": "https://github.com/mhudakcz/TempoPilot-app/releases/download/v0.5.0/TempoPilot.exe",
+      "sha256": "68b63b4a110b64b07abc902aeece545aea090798b3bf713a4f05a6b0db435b16",
+      "size": 178071064,
+      "minFromVersion": null
+    }
+  ]
+}

@@ -1097,12 +1097,15 @@ h2 em { background: linear-gradient(90deg, rgb(61 219 176 / .28), rgb(212 240 10
 window.TP_CHANGELOG = [
   {
     version: "0.5.0",
-    title: "Automatický návrh výkazu",
+    title: "Automatický návrh výkazu a aktualizace",
     date: "2026-10-06",
     items: [
-      "Automatický návrh výkazu za předchozí den (od 4:00 dalšího dne): za dny z posledního týdne, které ještě nemají žádné bloky a mají aspoň 30 minut práce.",
-      "Hotový návrh ohlásí oznámení u hodin; kliknutím se otevře přehled na daném dni.",
-      "Dny, které už mají bloky, se nikdy nepřepíšou. Funkci lze vypnout v menu položkou Automaticky navrhovat výkaz."
+      "Automatický návrh výkazu za předchozí den (od 4:00 dalšího dne): za dny z posledního týdne, které ještě nemají žádné bloky a mají aspoň 30 minut práce. Každý den jen jednou – smazané bloky se znovu nenavrhují.",
+      "Hotový návrh ohlásí oznámení u hodin; kliknutím se otevře přehled na daném dni. Funkci lze vypnout v menu položkou Automaticky navrhovat výkaz.",
+      "Generování výkazu je výrazně rychlejší a levnější (desítky sekund místo minut).",
+      "Výkaz: bloky se nesmí překrývat, týden je ukazuje ve skutečné délce a u každého dne je vidět odpracovaný a nepokrytý čas s tlačítkem pro doplnění mezery.",
+      "Automatické aktualizace: aplikace sama zjistí novou verzi, ukáže novinky a po potvrzení se aktualizuje. Před aktualizací zálohuje data, nepovedenou aktualizaci vrátí a předchozí verzi lze obnovit z menu.",
+      "Verze aplikace je vidět v menu u ikony."
     ]
   },
   {
