@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "latest": "0.5.2",
+  "latest": "0.6.0",
   "releases": [
+    {
+      "version": "0.6.0",
+      "date": "2026-10-07",
+      "notes": [
+        "Okno Nastavení se záložkou Jira (token šifrovaně, test připojení)",
+        "Našeptávač ticketů z Jiry v blocích výkazu",
+        "Názvy ticketů u bloků",
+        "Zapamatování ticketu pro zdroj a mapování projektů",
+        "Předvyplnění a ověření ticketů po vygenerování výkazu"
+      ],
+      "url": "https://github.com/mhudakcz/TempoPilot-app/releases/download/v0.6.0/TempoPilot.exe",
+      "mirrorUrl": "https://github.com/mhudakcz/TempoPilot/releases/download/v0.6.0/TempoPilot.exe",
+      "sha256": "f49e45e9d7e3832e4249de96f0fd829be52b8713f7d9970551bed2c2b73da4a3",
+      "size": 178229272,
+      "minFromVersion": null
+    },
     {
       "version": "0.5.2",
       "date": "2026-10-07",

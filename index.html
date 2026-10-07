@@ -1030,7 +1030,7 @@ h2 em { background: linear-gradient(90deg, rgb(61 219 176 / .28), rgb(212 240 10
       <li class="ms done reveal"><b>M4c</b><span>Meetingy, hovory, kalendář</span></li>
       <li class="ms done reveal"><b>M4d</b><span>Další AI nástroje</span></li>
       <li class="ms done reveal"><b>M4b</b><span>AI návrh bloků po 15 min</span></li>
-      <li class="ms reveal"><b>M5</b><span>Jira a tickety</span></li>
+      <li class="ms done reveal"><b>M5</b><span>Jira a tickety</span></li>
       <li class="ms reveal"><b>M6</b><span>Výkaz a exporty</span></li>
       <li class="ms later reveal"><b>Tempo</b><span>Zápis výkazu do Tempa</span></li>
       <li class="ms later reveal"><b>Mac</b><span>Verze pro macOS (jádro už je přenositelné)</span></li>
@@ -1095,6 +1095,18 @@ h2 em { background: linear-gradient(90deg, rgb(61 219 176 / .28), rgb(212 240 10
  * přímo ze souboru (file://), kde prohlížeč nedovolí načíst JSON přes fetch.
  */
 window.TP_CHANGELOG = [
+  {
+    version: "0.6.0",
+    title: "Jira",
+    date: "2026-10-07",
+    items: [
+      "Nové okno Nastavení (menu u ikony) se záložkou Jira: adresa, e-mail, API token a test připojení. Token je uložený šifrovaně a platí jen pro svou adresu.",
+      "Našeptávač ticketů v bloku: nahoře nápovědy z vašich vláken a meetingů, pod nimi tickety z Jiry podle klíče, projektu nebo názvu.",
+      "U bloků se ukazuje název ticketu z Jiry.",
+      "Zapamatování ticketu pro zdroj (vlákno, okno, meeting) a mapování projektů z Claude na projekty v Jiře.",
+      "Po vygenerování výkazu se tickety předvyplní a ověří v Jiře; neexistující se nepoužijí."
+    ]
+  },
   {
     version: "0.5.2",
     title: "Aktualizace bez prohlížeče",
