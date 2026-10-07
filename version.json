@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "latest": "0.6.0",
+  "latest": "0.7.0",
   "releases": [
+    {
+      "version": "0.7.0",
+      "date": "2026-10-07",
+      "notes": [
+        "Okno Nastavení se všemi volbami (Obecné, Sběr, AI, Kalendář, Jira, Aktualizace)",
+        "Výkaz po měsících se součty a Historie stavů dnů",
+        "Přehled všech AI vláken s filtry",
+        "Export do Excelu (Bloky, AI vlákna, Souhrn po ticketech)",
+        "Přehled funguje i v úzkém okně"
+      ],
+      "url": "https://github.com/mhudakcz/TempoPilot-app/releases/download/v0.7.0/TempoPilot.exe",
+      "mirrorUrl": "https://github.com/mhudakcz/TempoPilot/releases/download/v0.7.0/TempoPilot.exe",
+      "sha256": "39421b8e474216bd4ef52b465c1d6065496d033f423b4395291dcd1b01c594d3",
+      "size": 186843048,
+      "minFromVersion": null
+    },
     {
       "version": "0.6.0",
       "date": "2026-10-07",
