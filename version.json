@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "latest": "0.5.1",
+  "latest": "0.5.2",
   "releases": [
+    {
+      "version": "0.5.2",
+      "date": "2026-10-07",
+      "notes": [
+        "Aktualizace se stahují přímo v aplikaci (bez prohlížeče a přihlašování)",
+        "Instalace pro kolegy bez účtu na GitHubu",
+        "Oprava názvu záloh"
+      ],
+      "url": "https://github.com/mhudakcz/TempoPilot-app/releases/download/v0.5.2/TempoPilot.exe",
+      "mirrorUrl": "https://github.com/mhudakcz/TempoPilot/releases/download/v0.5.2/TempoPilot.exe",
+      "sha256": "4f524f839fc843053770e9662bff00de859323da12ae5eea24d589c4f2daaa06",
+      "size": 178095640,
+      "minFromVersion": null
+    },
     {
       "version": "0.5.1",
       "date": "2026-10-06",

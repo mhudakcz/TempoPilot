@@ -973,7 +973,6 @@ h2 em { background: linear-gradient(90deg, rgb(61 219 176 / .28), rgb(212 240 10
         <h3>Co budete potřebovat</h3>
         <ul class="guar">
           <li><b>Windows 10 nebo 11 (64bit).</b> Verze pro Mac se připravuje (jádro aplikace je už přenositelné), zatím ke stažení není.</li>
-          <li><b>Účet na GitHubu s přístupem ke stažení.</b> Aplikace je v soukromém repozitáři – pošlete autorovi své GitHub jméno a dostanete pozvánku.</li>
           <li><b>Volitelně Claude Code</b> (nainstalovaný a přihlášený, příkaz <code>claude</code>) – pro AI návrh výkazu a sběr práce v Claude Code.</li>
           <li><b>Volitelně aplikace Claude</b> nebo claude.ai – pro Cowork a chaty.</li>
         </ul>
@@ -982,7 +981,7 @@ h2 em { background: linear-gradient(90deg, rgb(61 219 176 / .28), rgb(212 240 10
       <ol class="inst-steps reveal" style="--d:.08s">
         <li>
           <h3>Stáhněte aplikaci</h3>
-          <p>Přihlaste se na GitHub a stáhněte <code>TempoPilot.exe</code> z <a href="https://github.com/mhudakcz/TempoPilot-app/releases/latest">posledního vydání</a>.</p>
+          <p>Stáhněte <code>TempoPilot.exe</code> z <a href="https://github.com/mhudakcz/TempoPilot/releases/latest">posledního vydání</a> – stačí kliknout na soubor, účet na GitHubu ani přihlášení nepotřebujete.</p>
         </li>
         <li>
           <h3>Uložte a spusťte</h3>
@@ -1009,7 +1008,7 @@ h2 em { background: linear-gradient(90deg, rgb(61 219 176 / .28), rgb(212 240 10
     </div>
 
     <div class="inst-foot reveal">
-      <p><b>Aktualizace:</b> v menu zvolte <b>Ukončit</b>, přepište <code>TempoPilot.exe</code> novou verzí a spusťte. Data zůstávají.</p>
+      <p><b>Aktualizace:</b> TempoPilot sám zjistí novou verzi, ukáže novinky a po kliknutí na <b>Aktualizovat</b> si ji stáhne a nainstaluje (předtím zálohuje data). Ručně kdykoli přes <b>Zkontrolovat aktualizace…</b> v menu. Data zůstávají.</p>
       <p><b>Kde jsou data:</b> <code>%USERPROFILE%\TempoPilot</code> – databáze, nastavení, screenshoty a log. Nic jiného nikde.</p>
       <p><b>Odinstalace:</b> zrušte <b>Spouštět po přihlášení</b>, zvolte <b>Ukončit</b> a smažte <code>TempoPilot.exe</code> i složku <code>%USERPROFILE%\TempoPilot</code>.</p>
     </div>
@@ -1096,6 +1095,16 @@ h2 em { background: linear-gradient(90deg, rgb(61 219 176 / .28), rgb(212 240 10
  * přímo ze souboru (file://), kde prohlížeč nedovolí načíst JSON přes fetch.
  */
 window.TP_CHANGELOG = [
+  {
+    version: "0.5.2",
+    title: "Aktualizace bez prohlížeče",
+    date: "2026-10-07",
+    items: [
+      "Aktualizace se stahují přímo v aplikaci (bez prohlížeče a přihlašování).",
+      "Instalace pro kolegy bez účtu na GitHubu.",
+      "Oprava názvu záloh."
+    ]
+  },
   {
     version: "0.5.1",
     title: "Čitelnější týdenní výkaz",
